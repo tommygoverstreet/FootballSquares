@@ -106,7 +106,7 @@ const playerForm = {
  }
 };
 
-/*
+
  $('#addPlayer').addEventListener('click', () => {
   $('#playerForm').innerHTML = playerForm.display();
  }
@@ -136,7 +136,7 @@ const playerForm = {
   $('#playersTable').innerHTML = player.display();
   $('#playerForm').innerHTML = '';
  })
- */
+ 
 
 
 
