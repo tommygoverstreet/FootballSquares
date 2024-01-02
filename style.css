@@ -1,0 +1,301 @@
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+html {
+ font-size: 90%;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background-color: #fefffe;
+ color: #252525;
+ display: grid;
+ grid-template-columns: 25vw 1fr;
+}
+
+img {
+ width: 100%;
+ height: auto;
+}
+
+.logo {
+ width: 100px;
+ margin: 0 auto;
+}
+
+ul {
+ list-style: none;
+}
+
+ul li {
+ padding: 1rem;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+}
+
+a:hover {
+ text-decoration: underline;
+ font-weight: bold;
+ transform: scale(1.2);
+}
+
+li a i {
+ margin-right: 0.5rem;
+}
+
+nav {
+ height: 100vh;
+ left: 0;
+ top: 0;
+padding: 1rem;
+ background-color: #252525;
+ color: #fefffe;
+ z-index: 1;
+ font-size: 1.2rem;
+ text-align: left;
+}
+
+main {
+ display: flex;
+ flex-direction: column;
+}
+
+.row {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.col {
+ display: flex;
+ flex-direction: column;
+}
+
+.a-center {
+ align-items: center;
+}
+
+.j-center {
+ justify-content: center;
+}
+
+.j-between {
+ justify-content: space-between;
+}
+
+.j-around {
+ justify-content: space-around;
+}
+
+.j-evenly {
+ justify-content: space-evenly;
+}
+
+.table-bordered,
+.table-bordered {
+ border: 1px solid #252525;
+}
+
+.table-bordered th {
+ background-color: #252525;
+ color: #fefffe;
+}
+
+.table-bordered td {
+ background-color: #fefffe;
+ color: #252525;
+ border: 1px solid #ccc;
+}
+
+.table-bordered td:hover {
+ background-color: #ccc;
+ color: #252525;
+}
+
+table {
+ width: 100%;
+ border-collapse: collapse;
+box-shadow: 12px 12px 15px #ccc;
+border-radius: 0.25rem;
+margin-top: 1rem;
+}
+
+table td,
+table th {
+ padding: 0.2rem 0.5rem;
+ text-align: center;
+ vertical-align: middle;
+}
+
+.container {
+ width: 100%;
+ max-width: 1200px;
+}
+
+button {
+ padding: 0.5rem 1rem;
+ font-size: 1rem;
+ height: auto;
+ border: none;
+ border-radius: 0.25rem;
+ background-color: #252525;
+ color: #fefffe;
+}
+
+.trash {
+ background-color: #a70717;
+ color: #faf8f8;
+}
+
+.edit {
+ background-color: #2a7a9b;
+ color: #faf8f8;
+}
+
+#playerForm {
+ display: flex;
+ flex-direction: column;
+ background-color: #252525;
+ color: #fefffe;
+}
+
+.form-group {
+ display: flex;
+ flex-wrap: wrap;
+ margin: 1rem;
+ font-size: 1rem;
+}
+
+.form-group label {
+ margin-right: 0.5rem;
+ width: 100px;
+}
+
+.form-group input, .form-group label, .form-group select, .form-group button {
+ padding: 0.5rem;
+ border: none;
+ border-radius: 0.25rem;
+}
+
+.form-group input:focus {
+ outline: none;
+}
+
+.form-group select {
+ padding: 0.5rem;
+ border: none;
+ border-radius: 0.25rem;
+}
+
+.form-group select:focus {
+ outline: none;
+}
+
+.form-group button {
+ margin-top: 1rem;
+}
+
+#playerForm button {
+ margin: 1rem;
+}
+
+#playerForm button:hover {
+ transform: scale(1.1);
+}
+
+#playerForm button:active {
+ transform: scale(1.2);
+}
+
+#playerForm button:focus {
+ outline: none;
+}
+
+#playerForm button:disabled {
+ background-color: #ccc;
+ color: #252525;
+}
+
+input[type="checkbox"] {
+ width: 1.5rem;
+ height: 1.5rem;
+}
+
+input[type="checkbox"]:focus {
+ outline: none;
+}
+
+input[type="checkbox"]:checked {
+ background-color: #252525;
+}
+
+input[type="checkbox"]:checked:after {
+ content: '\2713';
+ color: #fefffe;
+ font-size: 1.5rem;
+}
+
+input[type="checkbox"]:checked:focus {
+ outline: none;
+}
+
+input[type="checkbox"]:disabled {
+ background-color: #ccc;
+}
+
+input[type="checkbox"]:disabled:after {
+ color: #252525;
+}
+
+input[type="checkbox"]:disabled:focus {
+ outline: none;
+}
+
+input[type="radio"] {
+ width: 1.5rem;
+ height: 1.5rem;
+}
+
+input[type="radio"]:focus {
+ outline: none;
+}
+
+input[type="radio"]:checked {
+ background-color: #252525;
+}
+
+input[type="radio"]:checked:after {
+ content: '\2713';
+ color: #fefffe;
+ font-size: 1.5rem;
+}
+
+input[type="radio"]:checked:focus {
+ outline: none;
+}
+
+input[type="radio"]:disabled {
+ background-color: #ccc;
+}
+
+input[type="radio"]:disabled:after {
+ color: #252525;
+}
+
+input[type="radio"]:disabled:focus {
+ outline: none;
+}
+
+button[type="submit"] {
+ background: green;
+}
+
+.hide {
+ display: none;
+}
